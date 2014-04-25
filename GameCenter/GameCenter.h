@@ -1,6 +1,6 @@
 #pragma once
 
-class CGameCenterCaller{
+class CGameCenter{
 public:
     void Login();
     void PostScore(const char* idName,int score);

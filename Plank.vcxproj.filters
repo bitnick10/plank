@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameCenter">
+      <UniqueIdentifier>{9a37bbb6-ca30-4303-b501-217ff7b37df5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameCenter\GameCenter.h">
+      <Filter>GameCenter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameCenter\platform\win32\GameCenter.cpp">
+      <Filter>GameCenter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
