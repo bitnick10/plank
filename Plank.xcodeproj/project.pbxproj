@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28343D6E1909D804008416EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28343D6D1909D804008416EE /* Foundation.framework */; };
+		28343D731909D804008416EE /* Plank.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28343D721909D804008416EE /* Plank.h */; };
+		28343D751909D804008416EE /* Plank.m in Sources */ = {isa = PBXBuildFile; fileRef = 28343D741909D804008416EE /* Plank.m */; };
+		28343D7C1909D804008416EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28343D7B1909D804008416EE /* XCTest.framework */; };
+		28343D7D1909D804008416EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28343D6D1909D804008416EE /* Foundation.framework */; };
+		28343D7F1909D804008416EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28343D7E1909D804008416EE /* UIKit.framework */; };
+		28343D821909D804008416EE /* libPlank.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28343D6A1909D804008416EE /* libPlank.a */; };
+		28343D881909D804008416EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28343D861909D804008416EE /* InfoPlist.strings */; };
+		28343D8A1909D804008416EE /* PlankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28343D891909D804008416EE /* PlankTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28343D801909D804008416EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28343D621909D804008416EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28343D691909D804008416EE;
+			remoteInfo = Plank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28343D681909D804008416EE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				28343D731909D804008416EE /* Plank.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28343D6A1909D804008416EE /* libPlank.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlank.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		28343D6D1909D804008416EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28343D711909D804008416EE /* Plank-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plank-Prefix.pch"; sourceTree = "<group>"; };
+		28343D721909D804008416EE /* Plank.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plank.h; sourceTree = "<group>"; };
+		28343D741909D804008416EE /* Plank.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plank.m; sourceTree = "<group>"; };
+		28343D7A1909D804008416EE /* PlankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28343D7B1909D804008416EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28343D7E1909D804008416EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		28343D851909D804008416EE /* PlankTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PlankTests-Info.plist"; sourceTree = "<group>"; };
+		28343D871909D804008416EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28343D891909D804008416EE /* PlankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlankTests.m; sourceTree = "<group>"; };
+		287B0DDF1909D90F0083650D /* GameCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28343D671909D804008416EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28343D6E1909D804008416EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28343D771909D804008416EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28343D7C1909D804008416EE /* XCTest.framework in Frameworks */,
+				28343D7F1909D804008416EE /* UIKit.framework in Frameworks */,
+				28343D821909D804008416EE /* libPlank.a in Frameworks */,
+				28343D7D1909D804008416EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28343D611909D804008416EE = {
+			isa = PBXGroup;
+			children = (
+				287B0DDD1909D8D00083650D /* GameCenter */,
+				28343D6F1909D804008416EE /* Plank */,
+				28343D831909D804008416EE /* PlankTests */,
+				28343D6C1909D804008416EE /* Frameworks */,
+				28343D6B1909D804008416EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28343D6B1909D804008416EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28343D6A1909D804008416EE /* libPlank.a */,
+				28343D7A1909D804008416EE /* PlankTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28343D6C1909D804008416EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28343D6D1909D804008416EE /* Foundation.framework */,
+				28343D7B1909D804008416EE /* XCTest.framework */,
+				28343D7E1909D804008416EE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28343D6F1909D804008416EE /* Plank */ = {
+			isa = PBXGroup;
+			children = (
+				28343D721909D804008416EE /* Plank.h */,
+				28343D741909D804008416EE /* Plank.m */,
+				28343D701909D804008416EE /* Supporting Files */,
+			);
+			path = Plank;
+			sourceTree = "<group>";
+		};
+		28343D701909D804008416EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28343D711909D804008416EE /* Plank-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28343D831909D804008416EE /* PlankTests */ = {
+			isa = PBXGroup;
+			children = (
+				28343D891909D804008416EE /* PlankTests.m */,
+				28343D841909D804008416EE /* Supporting Files */,
+			);
+			path = PlankTests;
+			sourceTree = "<group>";
+		};
+		28343D841909D804008416EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28343D851909D804008416EE /* PlankTests-Info.plist */,
+				28343D861909D804008416EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		287B0DDD1909D8D00083650D /* GameCenter */ = {
+			isa = PBXGroup;
+			children = (
+				287B0DDF1909D90F0083650D /* GameCenter.h */,
+			);
+			path = GameCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28343D691909D804008416EE /* Plank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28343D8D1909D804008416EE /* Build configuration list for PBXNativeTarget "Plank" */;
+			buildPhases = (
+				28343D661909D804008416EE /* Sources */,
+				28343D671909D804008416EE /* Frameworks */,
+				28343D681909D804008416EE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plank;
+			productName = Plank;
+			productReference = 28343D6A1909D804008416EE /* libPlank.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		28343D791909D804008416EE /* PlankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28343D901909D804008416EE /* Build configuration list for PBXNativeTarget "PlankTests" */;
+			buildPhases = (
+				28343D761909D804008416EE /* Sources */,
+				28343D771909D804008416EE /* Frameworks */,
+				28343D781909D804008416EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28343D811909D804008416EE /* PBXTargetDependency */,
+			);
+			name = PlankTests;
+			productName = PlankTests;
+			productReference = 28343D7A1909D804008416EE /* PlankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28343D621909D804008416EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 28343D651909D804008416EE /* Build configuration list for PBXProject "Plank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28343D611909D804008416EE;
+			productRefGroup = 28343D6B1909D804008416EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28343D691909D804008416EE /* Plank */,
+				28343D791909D804008416EE /* PlankTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28343D781909D804008416EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28343D881909D804008416EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28343D661909D804008416EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28343D751909D804008416EE /* Plank.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28343D761909D804008416EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28343D8A1909D804008416EE /* PlankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28343D811909D804008416EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28343D691909D804008416EE /* Plank */;
+			targetProxy = 28343D801909D804008416EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28343D861909D804008416EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28343D871909D804008416EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28343D8B1909D804008416EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28343D8C1909D804008416EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28343D8E1909D804008416EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Plank.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plank/Plank-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		28343D8F1909D804008416EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Plank.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plank/Plank-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		28343D911909D804008416EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plank/Plank-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PlankTests/PlankTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28343D921909D804008416EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plank/Plank-Prefix.pch";
+				INFOPLIST_FILE = "PlankTests/PlankTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28343D651909D804008416EE /* Build configuration list for PBXProject "Plank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28343D8B1909D804008416EE /* Debug */,
+				28343D8C1909D804008416EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28343D8D1909D804008416EE /* Build configuration list for PBXNativeTarget "Plank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28343D8E1909D804008416EE /* Debug */,
+				28343D8F1909D804008416EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28343D901909D804008416EE /* Build configuration list for PBXNativeTarget "PlankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28343D911909D804008416EE /* Debug */,
+				28343D921909D804008416EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28343D621909D804008416EE /* Project object */;
+}

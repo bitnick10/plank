@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>006D9BCD-334D-4481-B813-26A0392F9F64</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Plank</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4EDDE72C-7F35-4B67-99FC-1EFDFD58B615</key>
+		<string>https://github.com/bitnick10/plank.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Plank.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4EDDE72C-7F35-4B67-99FC-1EFDFD58B615</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/bitnick10/plank.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4EDDE72C-7F35-4B67-99FC-1EFDFD58B615</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4EDDE72C-7F35-4B67-99FC-1EFDFD58B615</string>
+			<key>IDESourceControlWCCName</key>
+			<string>plank</string>
+		</dict>
+	</array>
+</dict>
+</plist>
