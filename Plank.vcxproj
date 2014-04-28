@@ -43,7 +43,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(ProjectDir)\GameCenter</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\GameCenter;$(ProjectDir)\Admob</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -55,7 +55,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>$(ProjectDir)\GameCenter</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\GameCenter;$(ProjectDir)\Admob</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -64,9 +64,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Admob\Admob.h" />
     <ClInclude Include="GameCenter\GameCenter.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Admob\platform\win32\Admob.cpp" />
     <ClCompile Include="GameCenter\platform\win32\GameCenter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -4,15 +4,24 @@
     <Filter Include="GameCenter">
       <UniqueIdentifier>{9a37bbb6-ca30-4303-b501-217ff7b37df5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Admob">
+      <UniqueIdentifier>{9a5f471c-1ba0-4739-abe6-9934c3ef4152}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameCenter\GameCenter.h">
       <Filter>GameCenter</Filter>
     </ClInclude>
+    <ClInclude Include="Admob\Admob.h">
+      <Filter>Admob</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameCenter\platform\win32\GameCenter.cpp">
       <Filter>GameCenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Admob\platform\win32\Admob.cpp">
+      <Filter>Admob</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
