@@ -24,20 +24,20 @@ static OCAdmob* instance = nil;
     return instance;
 }
 
-+ (void) addAdView:(UIView*) view atPos:(AdsPosEnum) pos
++ (void) addAdView:(UIView*) pView atPos:(AdsPosEnum) pos
 {
-    UIViewController* controller = [OCAdmob getCurrentRootViewController];
+    UIViewController* rootViewController = [OCAdmob getCurrentRootViewController];
     
-    if (nil == controller) {
+    if (nil == rootViewController) {
         //PluginUtilsIOS::outputLog("Can't get the UIViewController object");
         return;
     }
     
-    CGSize rootSize = controller.view.frame.size;
-    CGSize viewSize = view.frame.size;
+    CGSize rootSize = rootViewController.view.frame.size;
+    CGSize viewSize = pView.frame.size;
     CGPoint viewOrigin;
     
-    if (UIInterfaceOrientationIsLandscape(controller.interfaceOrientation)){
+    if (UIInterfaceOrientationIsLandscape(rootViewController.interfaceOrientation)){
         CGFloat temp = rootSize.width;
         rootSize.width = rootSize.height;
         rootSize.height = temp;
@@ -76,8 +76,8 @@ static OCAdmob* instance = nil;
     }
     
     CGRect rect = CGRectMake(viewOrigin.x, viewOrigin.y, viewSize.width, viewSize.height);
-    view.frame = rect;
-    [controller.view addSubview:view];
+    pView.frame = rect;
+    [rootViewController.view addSubview:pView];
 }
 
 + (UIViewController *)getCurrentRootViewController {
@@ -114,7 +114,7 @@ static OCAdmob* instance = nil;
 	self.strPublishID =[NSString stringWithUTF8String:id];
 }
 - (void) MoveTo:(double) duration X:(int)x Y:(int) y{
-    [UIView animateWithDuration:1.0 animations:^{
+    [UIView animateWithDuration:duration animations:^{
         //self.bannerView.center = CGPointMake(0, 0);
         self.bannerView.bounds = CGRectMake(x, y, self.bannerView.frame.size.width, self.bannerView.frame.size.height);
     }];

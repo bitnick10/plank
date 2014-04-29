@@ -1,4 +1,6 @@
 #pragma once
+#ifndef __ADMOB_H__
+#define __ADMOB_H__
 
 enum class AdsPos{
     kPosCenter = 0,
@@ -24,3 +26,5 @@ public:
     void showBanner(int sizeEnum,int pos);
     void MoveTo(double duration,int x,int y);
 };
+
+#endif
