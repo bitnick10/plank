@@ -99,6 +99,11 @@ static OCGameCenter* instance = nil;
             NSLog(@"[GameCenter] postScore for %s failed: %@", idName, error.localizedDescription);
         }
     }];
+}
+- (void)showLeaderboard{
+    if(![GKLocalPlayer localPlayer].isAuthenticated){
+        return;
+    }
     UIViewController* rootViewController = [OCGameCenter getCurrentRootViewController];
     GKGameCenterViewController *gameCenterController = [[GKGameCenterViewController alloc] init];
     if(gameCenterController!=nil){
@@ -111,5 +116,4 @@ static OCGameCenter* instance = nil;
     }
 
 }
-
 @end

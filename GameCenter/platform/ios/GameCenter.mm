@@ -11,3 +11,7 @@ void CGameCenter::PostScore(const char* idName,int score){
 
 void CGameCenter::clearAllScores(){
 }
+
+void CGameCenter::ShowLeaderboards(){
+    [[OCGameCenter shared] showLeaderboard];
+}
