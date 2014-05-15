@@ -101,9 +101,10 @@ static OCGameCenter* instance = nil;
     }];
 }
 - (void)showLeaderboard{
-    if(![GKLocalPlayer localPlayer].isAuthenticated){
-        return;
-    }
+    [self login];
+    //if(![GKLocalPlayer localPlayer].isAuthenticated){
+    //    return;
+    //}
     UIViewController* rootViewController = [OCGameCenter getCurrentRootViewController];
     GKGameCenterViewController *gameCenterController = [[GKGameCenterViewController alloc] init];
     if(gameCenterController!=nil){
