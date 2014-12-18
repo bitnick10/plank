@@ -1,0 +1,3 @@
+class CrossSocket{
+	public CrossSocket();
+};

@@ -65,10 +65,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Admob\Admob.h" />
+    <ClInclude Include="CrossSocket.h" />
     <ClInclude Include="GameCenter\GameCenter.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Admob\platform\win32\Admob.cpp" />
+    <ClCompile Include="CrossSocket.cpp" />
     <ClCompile Include="GameCenter\platform\win32\GameCenter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
