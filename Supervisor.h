@@ -2,12 +2,14 @@
 
 #include <vector>
 #include "CrossSocket.h"
-class Supervisor_c{
+class Supervisor_c {
 private:
-	CrossSocket _crossSocket;
+    CrossSocket _crossSocket;
+    bool _isConnected ;
 public:
-	std::vector<std::string> RecordedError;
-	void Tell(const char* data);
+    Supervisor_c();
+    std::vector<std::string> RecordedError;
+    void Tell(std::string str);
 };
 
 extern Supervisor_c Supervisor;

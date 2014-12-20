@@ -1,10 +1,10 @@
 #pragma once
-class CrossSocket{
+class CrossSocket {
 private:
-	int _socket;
+    int _socket;
 public:
-	CrossSocket();
-	void Connect(const char* addr,int port);
-	void Send(const char* data);
-	void Close();
+    CrossSocket();
+    void Connect(const char* addr, int port);
+    void Send(const char* data, int len);
+    void Close();
 };

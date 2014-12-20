@@ -2,11 +2,13 @@
 
 #include <vector>
 #include <chrono>
-class Secretary_c{
+class Secretary_c {
 private:
-	std::chrono::time_point<std::chrono::system_clock> now;
+    std::chrono::time_point<std::chrono::system_clock> start;
 public:
-	void StopwatchReset();
+    Secretary_c();
+    void StopwatchReset();
+    int64_t GetMilliseconds();
 };
 
 extern Secretary_c Secretary;
