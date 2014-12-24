@@ -15,6 +15,9 @@
     <ClInclude Include="Admob\Admob.h">
       <Filter>Admob</Filter>
     </ClInclude>
+    <ClInclude Include="CrossSocket.h" />
+    <ClInclude Include="Supervisor.h" />
+    <ClInclude Include="Secretary.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameCenter\platform\win32\GameCenter.cpp">
@@ -23,5 +26,8 @@
     <ClCompile Include="Admob\platform\win32\Admob.cpp">
       <Filter>Admob</Filter>
     </ClCompile>
+    <ClCompile Include="CrossSocket.cpp" />
+    <ClCompile Include="Supervisor.cpp" />
+    <ClCompile Include="Secretary.cpp" />
   </ItemGroup>
 </Project>
