@@ -1,5 +1,6 @@
 #include "Supervisor.h"
 
+#include <string>
 Supervisor_c Supervisor;
 
 Supervisor_c::Supervisor_c() {
@@ -14,4 +15,7 @@ void Supervisor_c::Tell(std::string str) {
     auto duration = now.time_since_epoch();
     auto milliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(duration).count();*/
     _crossSocket.Send(str.data(), str.length());
+}
+void Supervisor_c::Tell(float f) {
+    Tell(std::to_string(f));
 }
