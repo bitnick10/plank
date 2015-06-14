@@ -1,6 +1,7 @@
 #include "Supervisor.h"
 
 #include <string>
+#include <stdarg.h>
 Supervisor_c Supervisor;
 
 Supervisor_c::Supervisor_c() {
